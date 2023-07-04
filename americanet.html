@@ -1,1018 +1,376 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="americanet">
-	<head>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="stylesheet" href="./css/main.css" />
-		<title>Dashboard</title>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Gantari:wght@400;500;600;700&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<body class="americanet">
-		<header class="americanet">
-			<div class="container">
-				<h1 class="txt-color-white">Dashboard</h1>
-				<img src="./img/logo-americanet-alt.svg" alt="Logo da americanet" />
-			</div>
-		</header>
+	<link rel="stylesheet" href="./css/main.css" />
+	<title>Dashboard</title>
+	<link href="https://fonts.googleapis.com/css2?family=Gantari:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
 
-		<main>
-			<div class="container grid-1-3-container">
-				<section class="loja section-container-americanet">
-					<div class="row-section americanet">
-						<div class="card-summary bg-color-default">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400">Propostas</h3>
-							</div>
-							<span class="card-row txt-32-700 txt-color-default"> 10 </span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem">171</span>
-								<div class="pills bg-color-success">
-									<div class="arrow-up"></div>
-									<span class="pills-text txt-color-success txt-12-500"
-										>100.00%</span
-									>
-								</div></span
-							>
-						</div>
-						<div class="card-summary bg-color-default">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400">Contratos</h3>
-							</div>
-							<span class="card-row txt-32-700 txt-color-default"> 264 </span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem">171</span>
-								<div class="pills bg-color-success">
-									<div class="arrow-up"></div>
-									<span class="pills-text txt-color-success txt-12-500"
-										>100.00%</span
-									>
-								</div></span
-							>
-						</div>
-						<div class="card-summary bg-color-default">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400">Contratos</h3>
-							</div>
-							<span class="card-row txt-32-700 txt-color-default"> 10 </span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem">171</span>
-								<div class="pills bg-color-success">
-									<div class="arrow-up"></div>
-									<span class="pills-text txt-color-success txt-12-500"
-										>100.00%</span
-									>
-								</div></span
-							>
-						</div>
-					</div>
-					<h2 class="row-section-title txt-24-700">Desempenho Loja</h2>
-					<div class="row-section americanet loja bg-color-default rounded">
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar-tiny txt-12-500 txt-color-success bg-color-green-chatpro"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span class="pills-text txt-color-success txt-12-500"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar-tiny txt-12-500 txt-color-warning bg-color-warning"
-									>GO</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default">Goiânia</span>
-								</p>
-							</div>
-							<div class="card-row">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-danger">
-										<div class="arrow-down"></div>
-										<span class="pills-text txt-color-danger txt-12-500"
-											>-100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar-tiny txt-12-500 txt-color-purple bg-color-purple-55"
-									>AC</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default">Acreúna</span>
-								</p>
-							</div>
-							<div class="card-row">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span class="pills-text txt-color-success txt-12-500"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-					</div>
-					<h2 class="row-section-title txt-24-700">TOP Vendedores Loja</h2>
-					<div class="row-section americanet loja bg-color-default rounded">
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-success bg-color-green-chatpro line-height-100"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-success bg-color-green-chatpro line-height-100"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-success bg-color-green-chatpro line-height-100"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="loja section-container-americanet">
-					<div class="row-section americanet">
-						<div class="card-summary bg-color-default">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400">Propostas</h3>
-							</div>
-							<span class="card-row txt-32-700 txt-color-default"> 10 </span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem">171</span>
-								<div class="pills bg-color-success">
-									<div class="arrow-up"></div>
-									<span class="pills-text txt-color-success txt-12-500"
-										>100.00%</span
-									>
-								</div></span
-							>
-						</div>
-						<div class="card-summary bg-color-default">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400">Contratos</h3>
-							</div>
-							<span class="card-row txt-32-700 txt-color-default"> 264 </span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem">171</span>
-								<div class="pills bg-color-success">
-									<div class="arrow-up"></div>
-									<span class="pills-text txt-color-success txt-12-500"
-										>100.00%</span
-									>
-								</div></span
-							>
-						</div>
-						<div class="card-summary bg-color-default">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400">Contratos</h3>
-							</div>
-							<span class="card-row txt-32-700 txt-color-default"> 10 </span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem">171</span>
-								<div class="pills bg-color-success">
-									<div class="arrow-up"></div>
-									<span class="pills-text txt-color-success txt-12-500"
-										>100.00%</span
-									>
-								</div></span
-							>
-						</div>
-					</div>
-					<h2 class="row-section-title txt-24-700">Desempenho Receptivo</h2>
-					<div class="row-section americanet receptivo">
-						<div class="card-summary bg-color-default gap-8">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400 line-height-100">SP</h3>
-							</div>
-							<span
-								class="card-row txt-32-700 txt-color-default line-height-100"
-							>
-								10
-							</span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem line-height-100">171</span>
-							</span>
-						</div>
-						<div class="card-summary bg-color-default gap-8">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400 line-height-100">SP</h3>
-							</div>
-							<span
-								class="card-row txt-32-700 txt-color-default line-height-100"
-							>
-								10
-							</span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem line-height-100">171</span>
-							</span>
-						</div>
-						<div class="card-summary bg-color-default gap-8">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400 line-height-100">SP</h3>
-							</div>
-							<span
-								class="card-row txt-32-700 txt-color-default line-height-100"
-							>
-								10
-							</span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem line-height-100">171</span>
-							</span>
-						</div>
+<body class="americanet">
+	<header class="americanet">
+		<div class="container">
+			<h1 class="txt-color-white">Dashboard</h1>
+			<img src="./img/logo-americanet-alt.svg" alt="Logo da americanet" />
+		</div>
+	</header>
 
-						<div class="card-summary bg-color-default gap-8">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400 line-height-100">SP</h3>
-							</div>
-							<span
-								class="card-row txt-32-700 txt-color-default line-height-100"
-							>
-								10
-							</span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem line-height-100">171</span>
-							</span>
+	<main>
+		<div class="container grid-1-3-container">
+			<section class="loja section-container-americanet">
+				<div class="row-section americanet">
+					<div class="card-summary bg-color-default">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400">Propostas</h3>
 						</div>
-						<div class="card-summary bg-color-default gap-8">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400 line-height-100">SP</h3>
-							</div>
-							<span
-								class="card-row txt-32-700 txt-color-default line-height-100"
-							>
-								10
-							</span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem line-height-100">171</span>
-							</span>
+						<span class="card-row txt-32-700 txt-color-default"> 10 </span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400">Contratos</h3>
 						</div>
-						<div class="card-summary bg-color-default gap-8">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400 line-height-100">SP</h3>
+						<span class="card-row txt-32-700 txt-color-default"> 264 </span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem">171</span>
+							<div class="pills bg-color-success">
+								<span class="pills-text txt-color-success txt-12-500">100.00%</span>
 							</div>
-							<span
-								class="card-row txt-32-700 txt-color-default line-height-100"
-							>
-								10
-							</span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400">Combo</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default"> 10 </span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem">171</span>
+							<div class="pills bg-color-success">						
+								<span class="pills-text txt-color-success txt-12-500">100.00%</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				
+				<h2 class="row-section-title txt-24-700">Desempenho Loja</h2>
+				<div class="row-section americanet receptivo">					
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">Loja Goiania</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">Loja Bela Vista</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">Loja Acreuna</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">Loja Indiara</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">Loja Santa Helena</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">Loja Rio Verde</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+				</div>
+
+				<h2 class="row-section-title txt-24-700">TOP Vendedores Loja</h2>
+				
+				<div class="row-section americanet loja bg-color-default rounded">
+					<div class="card-long-row">
+						<div class="first-column gap-44">
+							<p class="vendor-details">
+								<span class="txt-20-500 txt-color-default">Layla Jordana</span>
+								<span class="txt-16-400 txt-color-default">Rio Verde</span>
+							</p>
+						</div>
+						<div class="card-row justify-flex-end gap-16">
+							<span class="card-row__subitem txt-color-default txt-20-500">
+								4
 							</span>
 						</div>
 					</div>
-					<h2 class="row-section-title txt-24-700">TOP Vendedores Receptivo</h2>
-					<div class="row-section americanet loja bg-color-default rounded">
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-success bg-color-green-chatpro line-height-100"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
+					<div class="card-long-row">
+						<div class="first-column gap-44">
+							<p class="vendor-details">
+								<span class="txt-20-500 txt-color-default">Layla Jordana</span>
+								<span class="txt-16-400 txt-color-default">Rio Verde</span>
+							</p>
 						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-success bg-color-green-chatpro line-height-100"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-success bg-color-green-chatpro line-height-100"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
+						<div class="card-row justify-flex-end gap-16">
+							<span class="card-row__subitem txt-color-default txt-20-500">
+								4
+							</span>
 						</div>
 					</div>
-				</section>
-				<section class="loja section-container-americanet">
-					<div class="row-section americanet">
-						<div class="card-summary bg-color-default">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400">Propostas</h3>
-							</div>
-							<span class="card-row txt-32-700 txt-color-default"> 10 </span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem">171</span>
-								<div class="pills bg-color-success">
-									<div class="arrow-up"></div>
-									<span class="pills-text txt-color-success txt-12-500"
-										>100.00%</span
-									>
-								</div></span
-							>
+				</div>
+
+			</section>
+
+			<section class="loja section-container-americanet">
+				<div class="row-section americanet">
+					<div class="card-summary bg-color-default">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400">Propostas</h3>
 						</div>
-						<div class="card-summary bg-color-default">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400">Contratos</h3>
-							</div>
-							<span class="card-row txt-32-700 txt-color-default"> 264 </span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem">171</span>
-								<div class="pills bg-color-success">
-									<div class="arrow-up"></div>
-									<span class="pills-text txt-color-success txt-12-500"
-										>100.00%</span
-									>
-								</div></span
-							>
+						<span class="card-row txt-32-700 txt-color-default"> 10 </span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400">Contratos</h3>
 						</div>
-						<div class="card-summary bg-color-default">
-							<div class="card-header">
-								<h3 class="txt-color-default txt-16-400">Contratos</h3>
+						<span class="card-row txt-32-700 txt-color-default"> 264 </span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem">171</span>
+							<div class="pills bg-color-success">								
+								<span class="pills-text txt-color-success txt-12-500">100.00%</span>
 							</div>
-							<span class="card-row txt-32-700 txt-color-default"> 10 </span>
-							<span class="card-row txt-20-500">
-								<span class="card-row__subitem">171</span>
-								<div class="pills bg-color-success">
-									<div class="arrow-up"></div>
-									<span class="pills-text txt-color-success txt-12-500"
-										>100.00%</span
-									>
-								</div></span
-							>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400">Combo</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default"> 10 </span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem">171</span>
+							<div class="pills bg-color-success">								
+								<span class="pills-text txt-color-success txt-12-500">100.00%</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<h2 class="row-section-title txt-24-700">Desempenho Receptivo</h2>
+				<div class="row-section americanet receptivo">
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">SP</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">GO</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">MS</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">MG</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">MT</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default gap-8">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400 line-height-100">DF</h3>
+						</div>
+						<span class="card-row txt-32-700 txt-color-default line-height-100">
+							10
+						</span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem line-height-100">171</span>
+						</span>
+					</div>
+				</div>
+				
+				<h2 class="row-section-title txt-24-700">TOP Vendedores Receptivo</h2>
+				
+				<div class="row-section americanet loja bg-color-default rounded">
+					<div class="card-long-row">
+						<div class="first-column gap-44">
+							<p class="vendor-details">
+								<span class="txt-20-500 txt-color-default">Layla Jordana</span>
+								<span class="txt-16-400 txt-color-default">Danilo</span>
+							</p>
+						</div>
+						<div class="card-row justify-flex-end gap-16">
+							<span class="card-row__subitem txt-color-default txt-20-500">
+								4
+							</span>
 						</div>
 					</div>
-					<h2 class="row-section-title txt-24-700">Desempenho Ativo</h2>
-					<div class="row-section americanet loja bg-color-default rounded">
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default">Propostas</span>
-								</p>
-							</div>
-							<div class="card-row">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span class="pills-text txt-color-success txt-12-500"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
+					<div class="card-long-row">
+						<div class="first-column gap-44">
+							<p class="vendor-details">
+								<span class="txt-20-500 txt-color-default">Layla Jordana</span>
+								<span class="txt-16-400 txt-color-default">Danilo</span>
+							</p>
 						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default">Propostas</span>
-								</p>
-							</div>
-							<div class="card-row">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span class="pills-text txt-color-success txt-12-500"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
+						<div class="card-row justify-flex-end gap-16">
+							<span class="card-row__subitem txt-color-default txt-20-500">
+								4
+							</span>
 						</div>
 					</div>
-					<h2 class="row-section-title txt-24-700">TOP Vendedores Ativo</h2>
-					<div class="row-section americanet loja bg-color-default rounded">
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-success bg-color-green-chatpro line-height-100"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
+				</div>
+			</section>
+
+			<section class="loja section-container-americanet">
+				<div class="row-section americanet">
+					<div class="card-summary bg-color-default">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400">Propostas</h3>
 						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
+						<span class="card-row txt-32-700 txt-color-default"> 10 </span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem">171</span>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400">Contratos</h3>
 						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-success bg-color-green-chatpro line-height-100"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
+						<span class="card-row txt-32-700 txt-color-default"> 264 </span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem">171</span>
+							<div class="pills bg-color-success">
+								<div class="arrow-up"></div>
+								<span class="pills-text txt-color-success txt-12-500">100.00%</span>
 							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
+						</span>
+					</div>
+					<div class="card-summary bg-color-default">
+						<div class="card-header">
+							<h3 class="txt-color-default txt-16-400">Chips</h3>
 						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
+						<span class="card-row txt-32-700 txt-color-default"> 10 </span>
+						<span class="card-row txt-20-500">
+							<span class="card-row__subitem">171</span>							
+						</span>
+					</div>
+				</div>
+				
+				
+				<h2 class="row-section-title txt-24-700">TOP Vendedores Ativo</h2>
+				<div class="row-section americanet loja bg-color-default rounded">
+					<div class="card-long-row">
+						<div class="first-column gap-44">
+							<p class="vendor-details">
+								<span class="txt-20-500 txt-color-default">Layla Jordana</span>
+								<span class="txt-16-400 txt-color-default">Lorrany</span>
+							</p>
 						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-success bg-color-green-chatpro line-height-100"
-									>RV</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
-						</div>
-						<div class="card-long-row">
-							<div class="first-column gap-44">
-								<span
-									class="avatar txt-16-500 txt-color-warning bg-color-warning line-height-100"
-									>DR</span
-								>
-								<p class="vendor-details">
-									<span class="txt-20-500 txt-color-default"
-										>Layla Jordana</span
-									>
-									<span class="txt-16-400 txt-color-default">Rio Verde</span>
-								</p>
-							</div>
-							<div class="card-row justify-flex-end gap-16">
-								<span class="card-row__subitem"
-									><div class="pills bg-color-success">
-										<div class="arrow-up"></div>
-										<span
-											class="pills-text txt-color-success txt-12-500 line-height-100"
-											>100.00%</span
-										>
-									</div></span
-								>
-								<span class="card-row__subitem txt-color-default txt-20-500">
-									4
-								</span>
-							</div>
+						<div class="card-row justify-flex-end gap-16">
+							<span class="card-row__subitem txt-color-default txt-20-500">
+								4
+							</span>
 						</div>
 					</div>
-				</section>
-			</div>
-		</main>
-	</body>
+					<div class="card-long-row">
+						<div class="first-column gap-44">
+							<p class="vendor-details">
+								<span class="txt-20-500 txt-color-default">Layla Jordana</span>
+								<span class="txt-16-400 txt-color-default">Lorrany</span>
+							</p>
+						</div>
+						<div class="card-row justify-flex-end gap-16">
+							<span class="card-row__subitem txt-color-default txt-20-500">
+								4
+							</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+</body>
+
 </html>
